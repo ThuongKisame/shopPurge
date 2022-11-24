@@ -1,0 +1,87 @@
+#form-sign-up {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+}
+
+#form-sign-up h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+#form-sign-up .form-control {
+    width: 100%;
+    position: relative;
+    margin: .5rem 0;
+}
+
+#form-sign-up .form-control i {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    visibility: hidden;
+}
+
+#form-sign-up .form-control #icon-error {
+    color: red;
+}
+
+#form-sign-up .form-control #icon-success {
+    color: #2ecc71;
+}
+
+#form-sign-up .form-control small {
+    color: red;
+    visibility: hidden;
+}
+
+#form-sign-up .form-control.error small,
+#form-sign-up .form-control.error #icon-error {
+    visibility: visible;
+}
+
+#form-sign-up .form-control.success #icon-success {
+    visibility: visible;
+}
+
+#form-sign-up .form-control.error input {
+    border: 2px solid red;
+    background-color: var(--white);
+}
+
+#form-sign-up .form-control.success input {
+    border: 2px solid #2ecc71;
+    background-color: var(--white);
+}
+
+#form-sign-up input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+#form-sign-up input:focus {
+    border: 1px solid #f1f1f1;
+    background-color: var(--white);
+}
+
+#form-sign-up button {
+    width: max-content;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    /* font-size: .8rem; */
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+}
+
+#form-sign-up a {
+    /* padding: .2rem; */
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	#header-table{
+		background-color: black;
+        color: white;
+        height: 2rem;
+	}
+	.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	}
+
+	.header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+	}
+	<?php
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "Puge";
+    $conn = mysqli_connect($servername, $username, $password, $dbname);
+	?>
+</style>
+<body>
+	<table style="width: 80%;">
+		<tr id="header-table" >
+			<td class="header">STT</td>
+			<td class="header">Name</td>
+			<td class="header">Password</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,202 @@
+.form-check-out {
+    text-align: left;
+    font-size: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-check-out {
+    display: flex;
+}
+
+.content-1 {
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.content-2 {
+    padding-left: 2.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    /* border: 1px solid red; */
+    padding: .5rem 0;
+}
+
+.form-control input,
+.form-control select {
+    width: 100%;
+    padding: .7rem 1rem;
+}
+
+.form-control.error small {
+    color: red;
+    display: block;
+}
+
+.form-control small {
+    display: none;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.step-content {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-transport,
+.content-pay-method {
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: .5rem;
+    /* padding: 2rem;    */
+}
+
+.content-transport {
+    padding: 1rem;
+}
+
+.content-transport i {
+    font-size: 5rem;
+    opacity: .5;
+}
+
+.content-pay-method .method {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.content-pay-method .method i {
+    font-size: 1.5rem;
+    transform: translateY(.33rem);
+    color: #338dbc;
+}
+
+.content-pay-method p {
+    padding: 1rem;
+}
+
+.step-content-footer button {
+    float: right;
+    padding: 1rem;
+    color: white;
+    background-color: #338dbc;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.step-content-footer span a {
+    color: #338dbc;
+    font-weight: bold;
+}
+
+.products-checkout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-checkout {
+    display: flex;
+    padding: 0;
+    margin-bottom: .7rem;
+}
+
+.product-checkout .content-first,
+.product-checkout .content-second {
+    padding: 0;
+}
+
+.product-checkout .content-second {
+    padding-left: 1rem;
+}
+
+.product-checkout .content-first {
+    position: relative;
+}
+
+.product-checkout .content-first .quantity {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+
+.product-checkout .content-second .price {
+    float: right;
+}
+
+.product-checkout .content-second .name {
+    font-weight: bold;
+}
+
+.content-2 .discount-code,
+.content-2 .total-line,
+.content-2 .total-end {
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.content-2 .discount-code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-2 .discount-code input {
+    padding: .7rem 1rem;
+    width: 74%;
+}
+
+.content-2 .discount-code button {
+    padding: .7rem 0rem;
+    /* float: right; */
+    color: white;
+    background-color: #338dbc;
+    border: 2px solid #338dbc;
+    outline: none;
+    width: 25%;
+}
+
+.content-2 .total-line {
+    line-height: 1.5rem;
+}
+
+.content-2 .total-line .temp-pay,
+.content-2 .total-line .pay-transport {
+    float: right;
+    font-weight: 500;
+}
+
+.content-2 .total-end {
+    font-size: 1.5rem;
+}
+
+.content-2 .total-end .total-price {
+    float: right;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.info-box,
+.box-address {
+    padding: 0;
+}

@@ -1,0 +1,87 @@
+#form-log-in {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+}
+
+#form-log-in h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+#form-log-in .form-control {
+    width: 100%;
+    position: relative;
+    margin: .5rem 0;
+}
+
+#form-log-in .form-control i {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    visibility: hidden;
+}
+
+#form-log-in .form-control #icon-error {
+    color: red;
+}
+
+#form-log-in .form-control #icon-success {
+    color: #2ecc71;
+}
+
+#form-log-in .form-control small {
+    color: red;
+    visibility: hidden;
+}
+
+#form-log-in .form-control.error small,
+#form-log-in .form-control.error #icon-error {
+    visibility: visible;
+}
+
+#form-log-in .form-control.success #icon-success {
+    visibility: visible;
+}
+
+#form-log-in .form-control.error input {
+    border: 2px solid red;
+    background-color: var(--white);
+}
+
+#form-log-in .form-control.success input {
+    border: 2px solid #2ecc71;
+    background-color: var(--white);
+}
+
+#form-log-in input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+#form-log-in input:focus {
+    border: 1px solid #f1f1f1;
+    background-color: var(--white);
+}
+
+#form-log-in button {
+    width: max-content;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    /* font-size: .8rem; */
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+}
+
+#form-log-in a {
+    /* padding: .2rem; */
+    font-weight: bold;
+}

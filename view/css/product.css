@@ -1,0 +1,107 @@
+.main-content {
+    display: flex;
+}
+
+#left-nav {
+    text-align: left;
+}
+
+#left-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#left-nav ul li {
+    padding: .6rem 0;
+}
+
+.filter-site {
+    border-radius: .5rem;
+}
+
+.filter-site .menu-filter {
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.filter-site .menu-filter li {
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.menu-filter li:hover .sub-menu-filter {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-filter input[type="checkbox"] {
+    display: block;
+}
+
+.sub-menu-filter {
+    position: absolute;
+    z-index: 300;
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, .2);
+    top: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.sub-menu-filter li {
+    display: flex;
+    width: max-content;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+.sub-menu-filter li span {
+    margin-left: .5rem;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-left: .3rem;
+    font-weight: bold;
+}
+
+.pagination ul li:hover,
+.pagination ul li.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.filter-value {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-value li {
+    position: relative;
+    background-color: var(--primary-color);
+    color: white;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+}
+
+.filter-value li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
